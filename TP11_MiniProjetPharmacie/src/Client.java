@@ -2,12 +2,20 @@ public class Client extends RoleDePersonne {
 
   private Integer numSecuriteSociale;
 
-    
-  public void setNumSecuriteSociale(Integer ) {
-  }
+/**
+ * @return the numSecuriteSociale
+ */
+public Integer getNumSecuriteSociale() {
+	return numSecuriteSociale;
+}
 
-  public Integer getNumSecuriteSociale( ) {
-  return null;
-  }
+/**
+ * @param numSecuriteSociale the numSecuriteSociale to set
+ */
+public void setNumSecuriteSociale(Integer numSecuriteSociale) {
+	this.numSecuriteSociale = numSecuriteSociale;
+}
+
+    
 
 }
