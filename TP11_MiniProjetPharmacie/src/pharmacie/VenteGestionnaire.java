@@ -10,19 +10,19 @@ public class VenteGestionnaire {
     private ArrayList<Client>  clients_liste;
     private ArrayList<Vendeur>  vendeurs_liste;
 
-  public void nouvelleVente() {
-  }
+    public void nouvelleVente() {
+    }
 
-  public void nouveauVendeur() {
-  }
+    public void nouveauVendeur() {
+    }
 
-  public void nouveauClient() {
-  }
+    public void nouveauClient() {
+    }
 
-  public void retourneRecetteRecherche() {
-  }
+    public void retourneRecetteRecherche() {
+    }
 
-  public void retourneVenteRecherche() {
-  }
+    public void retourneVenteRecherche() {
+    }
 
 }

@@ -6,9 +6,13 @@ public class Facture {
 	
 	private Date date;
 	private float prixTot;
-	private Vente ventes;
+	private Vente vente;
 	
-	
+	Facture(Date date, float prixTot, Vente vente){
+		this.setDate(date);
+		this.setPrixTot(prixTot);
+		this.setVente(vente);
+	}
 	
 	public Date getDate() {
 		return date;
@@ -27,13 +31,13 @@ public class Facture {
 	}
 
 
-	public Vente getVentes() {
-		return ventes;
+	public Vente getVente() {
+		return vente;
 	}
 
 	
-	public void setVentes(Vente ventes) {
-		this.ventes = ventes;
+	public void setVente(Vente vente) {
+		this.vente = vente;
 	}
 
 	  
